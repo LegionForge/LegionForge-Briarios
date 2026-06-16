@@ -121,6 +121,20 @@ Each agent in the pipeline is independent — it sees only the artifact, not the
 
 MIT — see [LICENSE](LICENSE)
 
+## Architectural Decisions
+
+All four open questions from initial research are now resolved:
+
+| ADR | Decision |
+|-----|---------|
+| [ADR-001](docs/decisions/ADR-001-bolt-on-vs-standalone.md) | Bolt-on meta-layer — consume OpenHands + LangGraph + Anthropic Managed Agents |
+| [ADR-002](docs/decisions/ADR-002-agent-tier-selection.md) | LangGraph-native for S/A tier; OpenHands for B/C tier |
+| [ADR-003](docs/decisions/ADR-003-budget-gate-implementation.md) | Polling (v0.1) → event-driven Prometheus/Alertmanager (v0.2+) |
+| [ADR-004](docs/decisions/ADR-004-verification-pipeline-ordering.md) | Sequential with early exit — fail fast, 1–2x token cost vs 3–4x for parallel |
+| [ADR-005](docs/decisions/ADR-005-kanban-state-backend.md) | Hybrid: GitHub Projects (display) + Postgres (orchestration state) |
+
 ## Status
 
-**Investigation / Pre-scaffolding** — see [docs/research/build-vs-buy.md](docs/research/build-vs-buy.md) for full landscape analysis.
+**Research complete. ADRs accepted. Ready for scaffolding.**
+
+See [docs/research/build-vs-buy.md](docs/research/build-vs-buy.md) for full landscape analysis.
