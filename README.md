@@ -4,6 +4,8 @@
 
 > Named for Briareos (Βριάρεως) — one of the Hecatoncheires of Greek myth. 50 heads, 100 arms. An entity that holds and executes a hundred things simultaneously. In the Appleseed universe, the cyborg who protects and orchestrates.
 
+💛 [Support this project](https://legionforge.org/donations) — LegionForge is open-source and independently maintained.
+
 **Briarios is a security-native orchestration meta-layer for parallel agentic development workstreams.**
 
 It does not replace OpenHands, LangGraph, or Anthropic Managed Agents. It sits on top of them and adds what they don't have: security-first issue triage, model-tier routing, multi-resource budget gating, and an independent verification pipeline.
