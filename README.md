@@ -4,7 +4,7 @@
 
 > Named for Briareos (Βριάρεως) — one of the Hecatoncheires of Greek myth. 50 heads, 100 arms. An entity that holds and executes a hundred things simultaneously. In the Appleseed universe, the cyborg who protects and orchestrates.
 
-💛 [Support this project](https://legionforge.org/donations) — LegionForge is open-source and independently maintained.
+💛 [Donate to LegionForge](https://legionforge.org/donations) — LegionForge is open-source and independently maintained.
 
 **Briarios is a security-native orchestration meta-layer for parallel agentic development workstreams.**
 
